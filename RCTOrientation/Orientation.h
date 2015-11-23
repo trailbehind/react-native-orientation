@@ -7,13 +7,13 @@
 #import "RCTBridgeModule.h"
 #import "RCTBridge.h"
 #import "RCTEventDispatcher.h"
-#import "AppDelegate.h"
+#import "MapAppDelegate.h"
 
 @interface Orientation : NSObject <RCTBridgeModule>
 + (void)setOrientation: (int)orientation;
 + (int)getOrientation;
 @end
 
-@interface AppDelegate (Orientation)
+@interface MapAppDelegate (Orientation)
 
 @end
