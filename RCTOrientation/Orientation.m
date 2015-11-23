@@ -3,10 +3,10 @@
 //
 
 #import "Orientation.h"
-#import "AppDelegate.h"
+#import "MapAppDelegate.h"
 
 
-@implementation AppDelegate (Orientation)
+@implementation MapAppDelegate (Orientation)
 
 - (NSUInteger)application:(UIApplication *)application supportedInterfaceOrientationsForWindow:(UIWindow *)window {
   int orientation = [Orientation getOrientation];
