@@ -20,6 +20,6 @@ repositories {
 }
 
 dependencies {
-    compile 'com.facebook.react:react-native:0.21.+'
+    compile 'com.facebook.react:react-native:0.20.+'
 }
 
